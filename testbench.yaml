@@ -1,2 +1,2 @@
 providers:
-  - VendorName\Skeleton\SkeletonServiceProvider
+  - Taha7\LaraRemoteExec\LaraRemoteExecServiceProvider

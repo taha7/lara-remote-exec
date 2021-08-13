@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Taha7\LaraRemoteExec\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaraRemoteExecCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'lara-remote-exec';
 
     public $description = 'My command';
 

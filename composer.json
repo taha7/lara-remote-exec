@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "taha7/lara-remote-exec",
+    "description": "Execute laravel commands on remote servers",
     "keywords": [
-        ":vendor_name",
+        "taha7",
         "laravel",
-        "package_slug"
+        "lara-remote-exec"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/taha7/lara-remote-exec",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Taha Mohamed",
+            "email": "taha.mohamed4213@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Taha7\\LaraRemoteExec\\": "src",
+            "Taha7\\LaraRemoteExec\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Taha7\\LaraRemoteExec\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Taha7\\LaraRemoteExec\\LaraRemoteExecServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LaraRemoteExec": "Taha7\\LaraRemoteExec\\LaraRemoteExecFacade"
             }
         }
     },

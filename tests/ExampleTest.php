@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Taha7\LaraRemoteExec\Tests;
 
 class ExampleTest extends TestCase
 {
